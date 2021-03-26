@@ -3,7 +3,7 @@ services:
   web:
     environment:
       - CHOKIDAR_USEPOLLING=true
-    image: ggabmc/frontend 
+    image: ggabmc/docker-react 
     build: 
       context: .
       dockerfile: Dockerfile.dev
